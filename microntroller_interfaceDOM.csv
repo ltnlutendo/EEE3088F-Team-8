@@ -1,0 +1,16 @@
+Item;Qty;Reference(s);Value;LibPart;Footprint;Datasheet;Price ($)
+;;BZ1;Buzzer;Device:Buzzer;;~;0,267
+;;BZ2;Buzzer;Device:Buzzer;;~;0,267
+;;D1;LED;Device:LED;;~;0,0057
+;;D2;LED;Device:LED;;~;0,0057
+;;D3;LED;Device:LED;;~;0,0057
+;;D4;LED;Device:LED;;~;0,0057
+;;Q1;2N2219;Transistor_BJT:2N2219;Package_TO_SOT_THT:TO-39-3;http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF;0,2
+;;Q2;2N2219;Transistor_BJT:2N2219;Package_TO_SOT_THT:TO-39-3;http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF;0,2
+;;R1;330;Device:R_US;;~;0,07
+;;R2;330;Device:R_US;;~;0,07
+;;R3;10K;Device:R_US;;~;0,07
+;;R4;10K;Device:R_US;;~;0,07
+;;R5;1K;Device:R_US;;~;0,07
+;;R6;1K;Device:R_US;;~;0,07
+;;U1;CAT24C256;Memory_EEPROM:CAT24C256;;https://www.onsemi.cn/PowerSolutions/document/CAT24C256-D.PDF;3,5
