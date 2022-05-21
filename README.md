@@ -16,16 +16,17 @@ shuttles like the Jammie buses in accordance with traffic and road safety regula
 This is an ongoing project which is constantly improved 
 
 ## What you will need:
+### Hardware
 ```
-*Hardware*
 The HAT
 A 3.7 Lithium ion rechargeble battery
 A USB B to USB B micro cable
 A laptop (Windows/MacOS/Linux)
 5V power supply
 STM32 Microcontroller
-
-*Software*
+```
+### Software
+```
 Atollic Studios
 ```
 
@@ -37,30 +38,30 @@ Download the Atollic Studios from [this](https://www.st.com/en/development-tools
 
 ## Connecting the HAT
 
-### Step 1
+### Step 1: Powering up
 ```
 Connect the HAT to the STM32, Make sure the usb port of the micro and the microcontroller are lined up 
 - if the pins are mismatched, this can lead to a short circuit
 The Green LED should be on when Plug is detected
 ```
-### Step 2
+### Step 2: Connecting to your laptop
 ```
 Connect the USB cable to your laptop
 Then connect the micro USB B to the HAT while holding the reset button(Blue button) of the micro controller.
 ```
-### Step 3
+### Step 3: Programming the HAT
 
 Open Up your Atollic Studios, fork code from this [respiratory](https://github.com/ltnlutendo/EEE3088F-Team-8)
 Paste this on the terminal and Run it to the micro controller.
 Set the maximum variable to Max = 3 (This will set the maximum number of people allowed to enter to 3).
 The blue LED will flash twice once the code is succesfully copied to the HAT's memory.
 
-### Step 4
+### Step 4: Getting ready to test
 
 ```
 Put the hat flat on the table such that the sensors are not obstructed (1m unobstructed minimum distance).
 ```
-### Step 5
+### Step 5: Test
 
 ```
 Wave your hand on top of the HAT 3 times, The buzzer should beep indicating maximum number of people entered.
@@ -71,7 +72,6 @@ Wave your hand on top of the HAT 3 times, The buzzer should beep indicating maxi
 - Power Submodule  - [Lutendo Mulaisi](https://github.com/ltnlutendo) 
 - Sensor Submodule   - [Munashe Chihota](https://github.com/MunasheC)
 - Interfacing Submodule - [Lisakhanya Miyani](https://github.com/LisakhanyaMiyana)
-
 ## How to contribute
 You can contribute to this project using these [guidelines](https://www.contributor-covenant.org/)
 
