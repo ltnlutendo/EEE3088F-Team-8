@@ -30,9 +30,9 @@ Atollic Studios
 ```
 
 ## Setting up software
-```
-Download the Atollic Studios from this [link](https://www.st.com/en/development-tools/truestudio.html#:~:text=Featured%20Videos-,Description,easy%20and%20efficient%20development%20process.)
-```
+
+Download the Atollic Studios from [this](https://www.st.com/en/development-tools/truestudio.html#:~:text=Featured%20Videos-,Description,easy%20and%20efficient%20development%20process.)
+
 
 
 ## Connecting the HAT
@@ -45,19 +45,33 @@ The Green LED should be on when Plug is detected
 ### Step 2
 ```
 Connect the USB cable to your laptop
-Then connect the micro USB B to the HAT while holding the reset button(Blue button) of the micro controller
+Then connect the micro USB B to the HAT while holding the reset button(Blue button) of the micro controller.
 ```
 ### Step 3
-```
+
 Open Up your Atollic Studios, fork code from this [respiratory](https://github.com/ltnlutendo/EEE3088F-Team-8)
-Paste this on the terminal and Run it to the micro controller
-The blue LED will flash twice once the code is succesfully copied to the HAT's memory
-```
+Paste this on the terminal and Run it to the micro controller.
+Set the maximum variable to Max = 3 (This will set the maximum number of people allowed to enter to 3).
+The blue LED will flash twice once the code is succesfully copied to the HAT's memory.
+
 ### Step 4
 
 ```
-Put the hat flat on the table such that the sensors are not obstructed (1m unobstructed minimum distance)
+Put the hat flat on the table such that the sensors are not obstructed (1m unobstructed minimum distance).
 ```
-## First use - Hello World
+### Step 5
+
+```
+Wave your hand on top of the HAT 3 times, The buzzer should beep indicating maximum number of people entered.
+```
+### Well Done! You're all set up.
+
+### Project Credits
+- Power Submodule  - [Lutendo Mulaisi](https://github.com/ltnlutendo) 
+- Sensor Submodule   - [Munashe Chihota](https://github.com/MunasheC)
+- Interfacing Submodule - [Lisakhanya Miyani](https://github.com/LisakhanyaMiyana)
 
 ## How to contribute
+You can contribute to this project using these [guidelines](https://www.contributor-covenant.org/)
+
+## License
